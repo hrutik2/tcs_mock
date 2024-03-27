@@ -45,7 +45,7 @@ export const Dashbord=()=>{
         <>
         <h1 >Employee Management</h1>
         
-        <Button onClick={onOpen}>Open Modal</Button>
+        <Button onClick={onOpen}>Add Employee</Button>
   
         <Modal isOpen={isOpen} onClose={onClose} >
           <ModalOverlay />
